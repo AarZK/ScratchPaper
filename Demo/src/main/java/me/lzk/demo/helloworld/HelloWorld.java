@@ -16,6 +16,6 @@ public class HelloWorld {
      * @LastEdit: 12:03 2021/1/19
      */
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Hello,world!");
     }
 }
