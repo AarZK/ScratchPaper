@@ -24,3 +24,4 @@ hs_err_pid*
 
 # Idea settings, see http://www.java.com/en/download/
 .idea
+*.iml
