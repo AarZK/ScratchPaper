@@ -17,14 +17,13 @@ import java.sql.SQLException;
  **/
 public class ScriptRunnerDemo {
 
-    private static String url = "jdbc:mysql://192.168.1.192:3306/sample?useSSL=false";
-    private static String username = "root";
-    private static String password = "root";
-
     public static Connection getConnection() {
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Connection");
+            String url = "jdbc:mysql://192.168.1.192:3306/sample?useSSL=false";
+            String username = "root";
+            String password = "root";
             connection = DriverManager.getConnection(url, username, password);
         } catch (ClassNotFoundException | SQLException e) {
             e.printStackTrace();
