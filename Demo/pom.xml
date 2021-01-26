@@ -25,11 +25,49 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.47</version>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>com.ibatis</groupId>-->
-<!--            <artifactId>ibatis2-common</artifactId>-->
-<!--            <version>2.1.7.597</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.sequoiadb</groupId>
+            <artifactId>sequoiadb-driver</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-common</artifactId>
+            <version>2.7.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.spark-project.hive</groupId>
+            <artifactId>hive-jdbc</artifactId>
+            <version>1.2.1.spark2</version>
+        </dependency>
+
+        <dependency>
+            <!-- spark core 依赖-->
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_2.11</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+
+        <dependency>
+            <!--  spark streaming 依赖 -->
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+
+        <dependency>
+            <!-- spark sql 依赖 -->
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_2.11</artifactId>
+            <version>2.4.3</version>
+        </dependency>
+
+        <dependency>
+            <!-- spark sequoiadb driver -->
+            <groupId>com.sequoiadb</groupId>
+            <artifactId>spark-sequoiadb_2.11</artifactId>
+            <version>3.4</version>
+        </dependency>
     </dependencies>
 
 </project>
